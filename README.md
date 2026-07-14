@@ -1,74 +1,86 @@
-🤖 Playwright Contact Form Automation
+# 🎭 Playwright Contact Form Automation
 
-A simple automation testing project built using Playwright with TypeScript to automate a contact form submission process. This test simulates real user interactions by entering form details, submitting the form, and validating the workflow.
+A simple automation testing project built using **Playwright with TypeScript** to automate a contact form submission process. This project simulates real user interactions by filling form fields, submitting the form, and validating the workflow.
 
-✨ Features
+## ✨ Features
 
-✅ Automated form input handling
-✅ Real user interaction simulation
-✅ Form submission automation
-✅ Playwright locators and assertions
-✅ Console logs for execution tracking
-✅ TypeScript-based test script
-✅ Fast and reliable browser automation
+- 🚀 Automated contact form submission
+- ✍️ Auto fills Name, Email, Subject, and Message fields
+- 🖱️ Performs form submission automatically
+- ✅ Uses Playwright assertions for validation
+- ⏱️ Includes execution delays for demonstration videos
+- 🌐 End-to-End browser automation testing
 
-🛠️ Technologies Used
-Playwright – End-to-End Automation Testing
-TypeScript – Test Script Development
-Node.js – Runtime Environment
+## 🛠️ Technologies Used
 
-📂 Project Structure
+- **Playwright** – Browser Automation Framework
+- **TypeScript** – Programming Language
+- **Node.js** – Runtime Environment
+- **Playwright Test Runner** – Test Execution and Assertions
+
+## 📂 Project Structure
+
+```text
 TESTING/
 │
+├── .github/
+├── .vscode/
 ├── tests/
-│   ├── mysite.spec.ts
 │   ├── example.spec.ts
+│   ├── mysite.spec.ts
 │   ├── superadmin.spec.ts
 │   └── superadminbug.spec.ts
 │
-├── playwright.config.ts
+├── .gitignore
 ├── package.json
 ├── package-lock.json
-└── .gitignore
-🚀 Test Scenario
+└── playwright.config.ts
+```
 
-The automation script performs the following actions:
-
-1)Opens the contact form website.
-2)Enters the user's name.
-3)Enters the email address.
-4)Enters the subject.
-5)Enters the message.
-6)Clicks the submit button.
-7)Verifies successful execution using Playwright assertions.
-
-🌐 Test Website
-https://kabishs.github.io/contact-form/
-▶️ Run the Test
+## ▶️ Run the Test
 
 Install dependencies:
 
+```bash
 npm install
+```
 
-Run the Playwright test:
+Run all tests:
 
+```bash
+npx playwright test
+```
+
+Run only the contact form test:
+
+```bash
 npx playwright test tests/mysite.spec.ts
+```
 
-Run tests with UI mode:
+Run tests in headed mode:
 
-npx playwright test --ui
-🎯 Learning Outcomes
+```bash
+npx playwright test --headed
+```
+
+## 🎯 Learning Outcomes
 
 This project helped in understanding:
 
-Playwright Test Framework
-Element Locators and Selectors
-Assertions and Validations
-Browser Automation
-End-to-End Testing
-TypeScript in Automation Testing
-👨‍💻 Author
+- Playwright installation and setup
+- Locators and element interactions
+- Form automation testing
+- Assertions using Playwright Test
+- End-to-End testing workflow
+- Browser automation using TypeScript
 
-Kabish S
+## 👨‍💻 Author
 
-Aspiring QA Engineer | Automation Testing Enthusiast | Java Full Stack Developer
+**Kabish S**
+
+- B.Tech Information Technology Student
+- Aspiring Java Full Stack Developer and QA Engineer
+
+---
+
+⭐ If you found this project useful, consider giving it a star on GitHub.
