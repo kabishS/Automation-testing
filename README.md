@@ -1,4 +1,4 @@
-# 🎭 "Playwright Contact Form Automation".
+# 🎭 "Playwright Contact Form Automation"
 
 A simple automation testing project built using **Playwright with TypeScript** to automate a contact form submission process. This project simulates real user interactions by filling form fields, submitting the form, and validating the workflow.
 
